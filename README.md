@@ -2,6 +2,11 @@
 
 > This a project created using postgreSQL database
 
+## Prerequisites
+
+- PostgreSQL
+- psql
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
