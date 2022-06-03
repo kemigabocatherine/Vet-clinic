@@ -45,7 +45,7 @@ SET weight_kg = weight_kg * -1;
 ROLLBACK TO SP1;
 UPDATE animals
 SET weight_kg = weight_kg * -1
-vet_clinic-*# WHERE weight_kg < 0;
+WHERE weight_kg < 0;
 COMMIT;
 
 SELECT COUNT(*) FROM animals;
@@ -54,7 +54,7 @@ SELECT COUNT(*) FROM animals WHERE escape_attempts =0;
 SELECT AVG(weight_kg) FROM animals;
 
 SELECT neutered FROM animals
-vet_clinic-# WHERE escape_attempts = (SELECT MAX(escape_attempts) FROM animals);
+WHERE escape_attempts = (SELECT MAX(escape_attempts) FROM animals);
 
 SELECT species, MIN(weight_kg), MAX(weight_kg) 
 FROM animals
