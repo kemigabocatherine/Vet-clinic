@@ -124,7 +124,7 @@ VALUES(4, 2);
 /* visits data */
 
 INSERT INTO visits(animal_id, vet_id, visit_date)
-vet_clinic-# VALUES(1, 1, 'May 24, 2020');
+VALUES(1, 1, 'May 24, 2020');
 
 INSERT INTO visits(animal_id, vet_id, visit_date)
 VALUES(1, 3, 'Jul 22, 2020');
