@@ -2,6 +2,11 @@
 
 > This project has been created using postgreSQL database
 
+## Schema_diagram
+
+![schema_diagram](https://user-images.githubusercontent.com/86133437/172705489-49def162-5169-47a7-9cf9-8530ce83b0c4.png)
+
+
 ## Prerequisites
 
 - PostgreSQL
